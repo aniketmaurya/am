@@ -1,0 +1,14 @@
+body {
+	background:url("new1.jpg") yellow;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	padding: 2px;
+	
+}
+.mystyle {
+	margin:2px;
+}
+input[type=text]{
+	background-color:cyan;
+}

@@ -1,0 +1,19 @@
+body{
+	background-image:url("new1.jpg");
+
+
+}
+a{
+	color:white;
+}
+h2{
+	color:white;
+	background-color:black;
+	border-radius:40%;
+	text-align:center;;
+}
+
+background-image{
+	    opacity: 0.5;
+    filter: alpha(opacity=50);
+}

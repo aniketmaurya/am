@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Hotel Menu</title>
+
+<head>
+<link rel=stylesheet href=newd.css>
+<link rel=stylesheet href=bootstrap.css>
+<script src=homejs.js></script>
+<style>
+img {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+</style>
+</head>
+
+<body style="background-color:yellow">
+<!--navigation menu-->
+
+<nav class=" navbar navbar-fixed-top navbar-inverse">
+	<div class=container-fluid>
+
+
+<!---website heading--->
+		<div class=navbar-header>
+			<a class=navbar-brand href=#>Party Junction</a>
+		</div>
+
+<!--menu-items-->
+	<div>
+		<ul class="nav  navbar-nav">
+			<li class=active><a href=# >Home</a></li>
+			<li><a href=# >Photos</a></li>
+			<li><a href=# >About</a></li>
+		
+<!--dropdown menu-->		
+			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"  href=#>Contact us <span class="caret"></span>
+				</a>
+				<ul class=dropdown-menu>
+					<li><a href=# >Videos</a></li>
+					<li><a href=# >Settings</a></li>
+					<li><a href=# >Address</a></li>
+					<li><a href=# >Mail</a></li>
+				</ul>
+				</li>
+		</ul>
+	
+	<!--right align-->
+	<ul class="navbar-nav nav navbar-right">
+		<li><a href=#>Log in</a></li>
+	</ul>
+
+		</div>
+	</div>
+</nav>
+<br><br><br>
+<p style=text-align:center>Fun begins @budget! Pay Less. Get More...</p>
+<div  id="hide">
+	<button style="margin-left:42%" class="btn" onclick=myFunction()> Launch Assistant </button>
+	<button class="btn " onclick=hide()> No </button>
+	<br><p  style="margin-left:25%" id=msg1></p>
+</div>
+<br>
+	
+
+
+
+
+</body>
+</html>

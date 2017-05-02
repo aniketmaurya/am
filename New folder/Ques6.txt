@@ -1,0 +1,28 @@
+#Meat Hunt
+Luffy, the one who wishes to become the next Pirate King, is always excited for meat and adventure. In his way to become the Pirate King, he has to encounters Polygyphs. This polygrphs are encoded with numbers, Palindromic numbers, which gives the information about the location code of meat, K. 
+You are his nakama(crew member), a Coder, who helps in decoding the encoded code to lead him to meat. The location of meat is enocoded with the next smallest palindromic number ,larger than K to reach to the meat. Being his true nakama help him in finding the meat.
+Note:Numbers are always displayed without leading zeros.
+
+Input
+
+The first line contains integer t, the number of test cases. Followed by t lines containing integers K.
+
+Output
+
+For each K, output the smallest palindrome larger than K.
+
+Constraints:
+
+1< t < 100
+0 < K < 1000000
+
+Example
+
+Input:
+2
+808
+2133
+
+Output:
+818
+2222

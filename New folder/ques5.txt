@@ -1,0 +1,50 @@
+#Tower Shower
+
+There are 3 towers and there are n disks stacked on the first towers (Each disk has different diameter). The disk with largest diameter is placed at the bottom and disk with smallest diameter is placed on the top (diameter reducing from bottom to top)
+
+Problem: Move the n disks from tower 1 to tower 2
+
+Rules: You can only move one disk at a time from one tower to another. Larger disk can not be moved over smaller disk in a tower
+
+Input: Line 1 contains number of disks (n) in tower 1 [integer]
+
+Line 2 contains the name of initial tower (tower 1) [string]
+
+Line 3 contains the name of destination tower (tower 2) [string]
+
+Line 4 contains the name of intermediate tower (tower 3) [string]
+
+Example:
+
+3
+
+A
+
+B
+
+C
+
+Output: Sequence of moves in each line
+
+Example: moving disk from A to B
+
+moving disk from A to C
+
+moving disk from B to C
+
+moving disk from A to B
+
+SAMPLE INPUT 
+3
+A
+B
+C
+
+SAMPLE OUTPUT 
+moving disk from A to B
+moving disk from A to C
+moving disk from B to C
+moving disk from A to B
+moving disk from C to A
+moving disk from C to B
+moving disk from A to B
